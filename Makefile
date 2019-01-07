@@ -1,5 +1,5 @@
 PKG_NAME := envs
-URL = https://files.pythonhosted.org/packages/34/f5/5277e967127581e5a63dca21dd42b43ab5d21ddd03cad0459649ee3c210a/envs-1.2.6.tar.gz
+URL = https://files.pythonhosted.org/packages/cf/b9/57bf61a3a788ead19fa5704dfb10ba5696276eb7f26a322d6fc9a1a9ef68/envs-1.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
