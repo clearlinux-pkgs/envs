@@ -4,7 +4,7 @@
 #
 Name     : envs
 Version  : 1.3
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/cf/b9/57bf61a3a788ead19fa5704dfb10ba5696276eb7f26a322d6fc9a1a9ef68/envs-1.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cf/b9/57bf61a3a788ead19fa5704dfb10ba5696276eb7f26a322d6fc9a1a9ef68/envs-1.3.tar.gz
 Summary  : Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
@@ -14,7 +14,6 @@ Requires: envs-bin = %{version}-%{release}
 Requires: envs-license = %{version}-%{release}
 Requires: envs-python = %{version}-%{release}
 Requires: envs-python3 = %{version}-%{release}
-Requires: Jinja2
 Requires: click
 BuildRequires : buildreq-distutils3
 
@@ -65,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1546884432
+export SOURCE_DATE_EPOCH=1549383517
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
