@@ -4,7 +4,7 @@
 #
 Name     : envs
 Version  : 1.3
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/cf/b9/57bf61a3a788ead19fa5704dfb10ba5696276eb7f26a322d6fc9a1a9ef68/envs-1.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cf/b9/57bf61a3a788ead19fa5704dfb10ba5696276eb7f26a322d6fc9a1a9ef68/envs-1.3.tar.gz
 Summary  : Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
@@ -69,12 +69,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582921595
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1603391710
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
-export FCFLAGS="$CFLAGS -fno-lto "
-export FFLAGS="$CFLAGS -fno-lto "
+export FCFLAGS="$FFLAGS -fno-lto "
+export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
