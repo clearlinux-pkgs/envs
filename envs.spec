@@ -4,7 +4,7 @@
 #
 Name     : envs
 Version  : 1.4
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/3c/7f/2098df91ff1499860935b4276ea0c27d3234170b03f803a8b9c97e42f0e9/envs-1.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3c/7f/2098df91ff1499860935b4276ea0c27d3234170b03f803a8b9c97e42f0e9/envs-1.4.tar.gz
 Summary  : Easy access of environment variables from Python with support for strings, booleans, list, tuples, and dicts.
